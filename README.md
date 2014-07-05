@@ -2,6 +2,7 @@ python_tabulate
 ===============
 
 python下用于表格输出的一个函数
+
 ===============
 
 最近偶然需要利用表格的形式输出一些数据，类似与MySQL里面做查询后查询结果的显示形式
@@ -16,6 +17,7 @@ import myTabulate
 header = ['header1', 'header2', 'header3']
 table = [['cell11', 'cell12', 'cell13'], ['cell21', 'cell22', 'cell23'], ['cell31', 'cell32', 'cell33']]
 print myTabulate.grid(header, table)
+
 ===============
 
 输出结果：
@@ -29,6 +31,7 @@ print myTabulate.grid(header, table)
   +--------------+--------------+--------------+   
   |cell31        |cell32        |cell33        |   
   +--------------+--------------+--------------+   
+
 ===============
 
 貌似是git上的输出格式和终端上的输出格式不太一样，导致输出的表格有问题
